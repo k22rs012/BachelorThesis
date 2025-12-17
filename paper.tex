@@ -1,0 +1,144 @@
+\documentclass[a4j,12pt]{jreport}
+
+% 図を利用する場合
+\usepackage{url}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+%表のセル内で改行する場合
+\usepackage{multirow}
+
+%SI単位を利用する場合
+\usepackage{siunitx}
+
+\usepackage{comment}
+\usepackage {threeparttable}
+
+\usepackage{listings,plistings}
+\usepackage{graphicx}
+\usepackage{here}
+\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+
+\usepackage{otf}
+\usepackage{ulem}
+
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+
+%% カラムサイズの指定用 %%
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+%% 上下中央揃え%%
+\newcommand{\CenterRow}[2]{
+  \dimen0=\ht\strutbox%
+  \advance\dimen0\dp\strutbox%
+  \multiply\dimen0 by#1%
+  \divide\dimen0 by2%
+  \advance\dimen0 by-.5\normalbaselineskip%
+  \raisebox{-\dimen0}[0pt][0pt]{#2}}
+
+\captionsetup{compatibility=false}
+
+\begin{document}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\thispagestyle{empty}
+
+\vspace*{2cm}
+\begin{center}
+
+{\LARGE ああああ}\vfill
+\vspace*{7cm}
+{\LARGE 22RS012}\vfill
+{\huge 井上　誠斗}
+
+\vspace*{20mm}
+{\LARGE 九州産業大学 理工学部}\vfill
+{\LARGE 情報科学科}\vfill
+
+\vspace*{20mm}
+{\LARGE 令和8年 1月}
+\vfill
+\end{center}
+
+
+%\thispagestyle{empty}
+%{\par \baselineskip=.8\normalbaselineskip
+%\begin{quotation}
+%\pagenumbering{roman}\setcounter{page}{0}
+%\tableofcontents
+%\listoffigures
+%\listoftables\vfill
+%\end{quotation} \par}
+%\vskip  \textwidth \pagebreak
+%\setcounter{page}{1}\pagenumbering{arabic}
+%\renewcommand{\bibname}{参考文献}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{序論}\label{chap:Introduction}
+\input{1introduction.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{開発環境}\label{chap:development}
+\input{3development.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{要求仕様と設計}\label{chap:requirement}
+\input{4requirement.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{測定機器の開発}\label{chap:hardwareDevelopment}
+\input{5hardwareDevelopment.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter{測定値閲覧機能の開発}\label{chap:softwareDevelopment}
+%\input{6softwareDevelopment.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{測定方法と評価方法}\label{chap:measurementMethod}
+\input{7measurementMethod.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter{測定結果と評価}\label{chap:measurementResults}
+%\input{8measurementResults.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %\chapter{結論}\label{chap:conclusion}
+%\input{9conclusion.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\chapter*{謝辞}
+%\addcontentsline{toc}{chapter}{謝辞}
+%\input{10thanks.tex}\clearpage{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{参考文献}
+\bibliography{paper}
+\bibliographystyle{tipsj}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% 付録 %%%
+\appendix\clearpage{}
+
+%\chapter{開発環境}\label{achap:Evaluation}
+%\addcontentsline{toc}{chapter}{開発環境}
+%\input{7IDE.tex}\clearpage{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\chapter{ソースコード}\label{achap:Evaluation}
+%\addcontentsline{toc}{chapter}{ソースコード}
+%\input{9cord.tex}\clearpage{}
+\end{document}
+
