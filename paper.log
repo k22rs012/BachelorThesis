@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  17 DEC 2025 18:38
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  20 DEC 2025 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,6 +564,10 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 
 LaTeX Warning: Reference `fig:sensors' on page 5 undefined on input line 15.
 
+
+LaTeX Warning: Reference `fig:SeeedESP32C6' on page 5 undefined on input line 3
+0.
+
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 33.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
@@ -583,20 +587,6 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 ]
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 37.
-File: ./figures/SeeedESP32C6.eps Graphic file (type eps)
- <./figures/SeeedESP32C6.eps>
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 44.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 44.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 44.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 44.
 
 
 LaTeX Warning: Reference `fig:SparkfunFS3000-1015' on page 6 undefined on input
@@ -606,68 +596,63 @@ LaTeX Warning: Reference `fig:SparkfunFS3000-1015' on page 6 undefined on input
 LaTeX Warning: Reference `fig:fs3000-1015Parameters' on page 6 undefined on inp
 ut line 65.
 
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 72.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 72.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 72.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 72.
 
 
 [6]
 
+LaTeX Warning: Reference `fig:AVHzYct-3Reco' on page 7 undefined on input line 
+145.
+
+
+
 [7]
 File: figures/AVHzYct-3.eps Graphic file (type eps)
  <figures/AVHzYct-3.eps>
-File: figures/AVHzYct-3Reco.eps Graphic file (type eps)
- <figures/AVHzYct-3Reco.eps>
 
 [8])
 
 [9]
-
-[10]
 第 3 章
 (./4requirement.tex
 
-[11
+[10
 
-]
+])
 
-[12]
-
-LaTeX Warning: Reference `fig:tbl.airflow.esp32c6' on page 13 undefined on inpu
-t line 79.
-
-
-LaTeX Warning: Reference `tbl:vacuum_ac' on page 13 undefined on input line 79.
-
-
-
-LaTeX Warning: Reference `tbl:blow.device' on page 13 undefined on input line 7
-9.
-
-
-LaTeX Warning: Reference `tbl:vacuum.device' on page 13 undefined on input line
- 79.
-
-
-LaTeX Warning: Reference `tbl:group' on page 13 undefined on input line 79.
-
-)
-
-[13]
+[11]
 第 4 章
-(./5hardwareDevelopment.tex)
+(./5hardwareDevelopment.tex Excluding 'comment' comment.
 
-[14
+[12
 
 ]
+
+[13])
+
+[14]
 第 5 章
 (./7measurementMethod.tex
 
-LaTeX Warning: Reference `fig:portable_vs_fixed' on page 15 undefined on input 
-line 39.
-
-
-
 [15
 
-])
+]
+
+LaTeX Warning: Reference `fig:portable_vs_fixed' on page 16 undefined on input 
+line 22.
+
+)
 No file paper.bbl.
 
 
@@ -683,12 +668,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12482 strings out of 473836
- 252183 string characters out of 5731190
- 615213 words of memory out of 5000000
- 35621 multiletter control sequences out of 15000+600000
+ 12468 strings out of 473836
+ 251813 string characters out of 5731190
+ 616187 words of memory out of 5000000
+ 35610 multiletter control sequences out of 15000+600000
  575067 words of font info for 116 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 73i,9n,80p,1172b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,10n,80p,1172b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (16 pages, 53968 bytes).
+Output written on paper.dvi (16 pages, 57436 bytes).
