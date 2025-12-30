@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  20 DEC 2025 15:20
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  31 DEC 2025 00:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,6 +235,30 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \backup@length=\skip57
 \ar@cellbox=\box80
 ))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
@@ -243,22 +267,18 @@ Excluding comment 'comment')
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box81
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-)
 \lst@mode=\count300
 \lst@gtempboxa=\box82
 \lst@token=\toks25
 \lst@length=\count301
-\lst@currlwidth=\dimen177
+\lst@currlwidth=\dimen179
 \lst@column=\count302
 \lst@pos=\count303
-\lst@lostspace=\dimen178
-\lst@width=\dimen179
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
 \lst@newlines=\count304
 \lst@lineno=\count305
-\lst@maxwidth=\dimen180
+\lst@maxwidth=\dimen182
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
@@ -276,30 +296,9 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
 (./plistings.sty
 Package: plistings 2015/12/07 v0.10 Japanese support of listings package
-\ltj@lst@frame@lslimit=\dimen181
+\ltj@lst@frame@lslimit=\dimen183
 \lst@inputfile=\read2
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: dvips.def on input line 106.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
-))
-\Gin@req@height=\dimen182
-\Gin@req@width=\dimen183
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/here/here.sty)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/here/here.sty)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count308
@@ -395,7 +394,7 @@ Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count320
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 46.
+h' as default language. on input line 48.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
@@ -405,14 +404,17 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvips.def on input line 149.
 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 48.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 46.
+(Font)              scaled to size 11.54663pt on input line 48.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
@@ -423,27 +425,52 @@ File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
 \g__pdf_backend_link_int=\count322
 \g__pdf_backend_link_sf_int=\count323
 )
-(./paper.aux)
+(./paper.aux
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+
+LaTeX Warning: Label `fig:mune' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -451,7 +478,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 46.
+or `english'. on input line 48.
 \c@lstlisting=\count324
 
 *geometry* driver: auto-detecting
@@ -491,13 +518,13 @@ or `english'. on input line 46.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 56.
+(Font)              scaled to size 19.95642pt on input line 58.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 56.
+(Font)              scaled to size 19.95642pt on input line 58.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 59.
+(Font)              scaled to size 23.94002pt on input line 61.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 59.
+(Font)              scaled to size 23.94002pt on input line 61.
 
 
 [1
@@ -505,13 +532,13 @@ LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
 ]
 第 1 章
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 86.
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 86.
+(Font)              scaled to size 23.94002pt on input line 88.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 86.
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 86.
+(Font)              scaled to size 23.94002pt on input line 88.
 (./1introduction.tex
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
 (Font)              scaled to size 16.62714pt on input line 4.
@@ -525,138 +552,159 @@ LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY2/hgt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (Font)              scaled to size 16.62714pt on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 7.
+(Font)              scaled to size 7.69775pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 7.
+(Font)              scaled to size 5.77332pt on input line 8.
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+
+<./figures/av7et-x4rpq.eps>
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 15.
+(Font)              scaled to size 10.53629pt on input line 17.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 17.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 17.
 
 
 [2
 
 ]
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 24.
 
-[3])
+
+[3]
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
 
 [4]
-第 2 章
-(./3development.tex
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 15.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 15.
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
 
-
-LaTeX Warning: Reference `fig:sensors' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Reference `fig:SeeedESP32C6' on page 5 undefined on input line 3
-0.
-
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 33.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 33.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 33.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 33.
-
-
-[5
-
-]
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 37.
-
-
-LaTeX Warning: Reference `fig:SparkfunFS3000-1015' on page 6 undefined on input
- line 55.
-
-
-LaTeX Warning: Reference `fig:fs3000-1015Parameters' on page 6 undefined on inp
-ut line 65.
-
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 72.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 72.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 72.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 72.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 72.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 72.
-
+[5])
 
 [6]
+第 2 章
+(./3development.tex
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 15.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 15.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 15.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 15.
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
 
-LaTeX Warning: Reference `fig:AVHzYct-3Reco' on page 7 undefined on input line 
-145.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 33.
+
+
+[7
+
+]
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[7]
-File: figures/AVHzYct-3.eps Graphic file (type eps)
- <figures/AVHzYct-3.eps>
-
-[8])
+[8]
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
 
 [9]
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[10]
+File: ./figures/av7et-x4rpq.eps Graphic file (type eps)
+ <./figures/av7et-x4rpq.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+[11]
+
+[12]
 第 3 章
 (./4requirement.tex
 
-[10
+[13
 
-])
+]
 
-[11]
+[14] Excluding 'comment' comment.)
+
+[15]
 第 4 章
 (./5hardwareDevelopment.tex Excluding 'comment' comment.
 
-[12
+[16
 
 ]
 
-[13])
+[17])
 
-[14]
+[18]
 第 5 章
 (./7measurementMethod.tex
 
-[15
+[19
 
 ]
 
-LaTeX Warning: Reference `fig:portable_vs_fixed' on page 16 undefined on input 
-line 22.
+[20])
 
-)
+[21]
+第 6 章
+(./8measurementResults.tex)
+
+[22
+
+]
+第 7 章
+(./9conclusion.tex Excluding 'comment' comment.
+
+[23
+
+])
 No file paper.bbl.
 
 
-[16] (./paper.aux)
+[24] (./paper.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2024-11-01> patch level 2
@@ -664,16 +712,16 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12468 strings out of 473836
- 251813 string characters out of 5731190
- 616187 words of memory out of 5000000
- 35610 multiletter control sequences out of 15000+600000
- 575067 words of font info for 116 fonts, out of 8000000 for 9000
+ 12517 strings out of 473836
+ 252714 string characters out of 5731190
+ 617417 words of memory out of 5000000
+ 35650 multiletter control sequences out of 15000+600000
+ 576409 words of font info for 121 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  73i,10n,80p,1172b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (16 pages, 57436 bytes).
+Output written on paper.dvi (24 pages, 80552 bytes).

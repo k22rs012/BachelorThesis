@@ -9,10 +9,7 @@
 % 価格：各機器のコストパフォーマンスを評価。
 % 他社サービスとの比較：他社の製品やサービス（Testo 405i、Wi-Musu、Gill WindObserver 65など）との比較。
 
-本章では6章で述べた測定方式で測定した結果と評価を述べる．
 
-\section{CO2測定機器}
-本節では吹出し口用の測定機器の風速の測定精度，稼働時間，データの測定と送信の安定性について評価を行った結果を述べる．
 
 
 %\subsection{風速の測定精度}
@@ -57,142 +54,23 @@
 %\end{table}
 
 
-
-\subsection{消費電力評価}
-携帯するにおいてに重要なバッテリでの稼働時間を評価するため，USBテスター（AVHzYct-3）を使用し，10分間の消費電力を測定した．
-現在研究室で使用しているMKR  1010とESP32C6の消費電力を比較する。MKR 1010はCO2センサにMH-Z19Cセンサを使用している。
-ESP32C6はSCD41とSM03-SCD40(SCD40)を使用したものと、
-
-\begin{table}[h]
-\centering
-\caption{吹出し口の消費電力}
-\begin{tabular}{|c|r|r|r|}
-\hline
-\textbf{タイプ} & \textbf{消費電力(mAh)} & \textbf{最大電流} & \textbf{最小電流} \\ \hline \hline
-タイプ1 &  6.6 & 0.1016 & 0.0342 \\ \hline
-タイプ2 &  3.6 & 0.1192 & 0.0115 \\ \hline
-タイプ3 &  3.0 & 0.1253 & 0.0116 \\ \hline
-\end{tabular}
-\label{tab:powerConsumptionB}
-\end{table}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{figures/2400mAhBlow.eps}
-\caption{吹出し口タイプ3の消費電力波形}
-\label{fig:2400mAhBlow}
-\end{figure}
+本章では5章で述べた測定方式で測定した結果と評価を述べる．
 
 
 
-\subsection{データの測定と安定性}
-吹出し口における安定性については，すべての測定機器が概ね安定して動作していた．
-しかしながら，タイプ3の検証において，最大で30時間分の誤差が生じる不安定な動作が確認された．
-このため，安定性を向上させるための改善策を講じる必要がある．
+\section{概要}
 
+\section{据え置き型センサとの比較結果}
+  \subsection{CO$_2$ 濃度の時間変化}
+  \subsection{高さ方向における測定結果}
 
+\section{携帯時の測定結果}
+  \subsection{装着位置による測定結果}
+  \subsection{登山中の CO$_2$ 濃度変化}
 
+\section{通信機能の動作結果}
 
-\subsection{吸込み口用の測定機器}
-本節では吸込み口用の測定機器の稼働時間，データの測定と送信の安定性について評価を行った結果を述べる．
-
-\subsection{稼働時間}
-吸込み口用の測定機器の稼働時間を評価するため，USBテスター（AVHzYct-3）を使用し，10分間の消費電力を測定した．
-10分間の測定結果を表\ref{tab:powerConsumptionS}，
-吸込み口タイプ2の記録を図\ref{fig:ESP32C6V2PC}，
-吸込み口タイプ3の記録を図\ref{fig:ESP32C6V3PC}，
-吸込み口タイプ4の記録を図\ref{fig:ESP32C6V4PC}に示す．
-
-結果としては，タイプ2，3が10分で約1mAh程度なのに対し，タイプ4は4.8mAhとなっている．
-タイプ4の消費電力が5倍近い値になっているのは，図\ref{fig:ESP32C6V4PC}の波形図で確認できるように，
-タイプ2や3と比べて非常に長い間電流が大きい状態が続いているためである．
-理由に関しては次の項で述べる．
-
-
-\begin{table}[h]
-\centering
-\caption{吸込み口の消費電力}
-\begin{tabular}{|c|r|r|r|}
-\hline
-\textbf{タイプ} & \textbf{消費電力(mAh)} & \textbf{最大電流} & \textbf{最小電流} \\ \hline \hline
-タイプ2 &  1.0 & 0.0843 & 0.0004 \\ \hline
-タイプ3 &  1.1 & 0.0882 & 0.0003 \\ \hline
-タイプ4 &  4.8 & 0.1562 & 0.0003 \\ \hline
-\end{tabular}
-\label{tab:powerConsumptionS}
-\end{table}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{figures/ESP32C6V2PC.eps}
-\caption{吸込み口タイプ2の消費電力波形}
-\label{fig:ESP32C6V2PC}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{figures/ESP32C6V3PC.eps}
-\caption{吸込み口タイプ3の消費電力波形}
-\label{fig:ESP32C6V3PC}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{figures/ESP32C6V4PC.eps}
-\caption{吸込み口タイプ4の消費電力波形}
-\label{fig:ESP32C6V4PC}
-\end{figure}
-
-
-
-
-\subsection{データの測定と安定性}
-吸込み口の安定性に関してはタイプ1，タイプ2が安定して動作していたが，タイプ3，タイプ4は動作が安定していなかった．
-過去6時間の吸込み口の測定結果を表示するグラフを図\ref{fig:ESPVACALL}に示す．
-赤色のタイプ4と青色のタイプ3が全体を通してその他の測定機器より高い温度を示していることが確認された．
-特にタイプ4に関しては温度が安定しておらず，非常に不安定であることが確認された．
-電流の波形図からも電流が安定していないことが確認された．
-
-
-\begin{figure}
-\centering
-\includegraphics[width=\linewidth]{./figures/ESPVACALL.eps}
-\caption{全ての吸い込み口用測定機器のグラフ}
-\label{fig:ESPVACALL}
-\end{figure}
-
-
-
-
-\section{他社サービスとの比較}
-本節では，他社サービスと自作の測定機器の比較を行う．
-比較対象として，Wi-Musu，CVS-WXT536，Gill WindObserver 65を選定した．
-比較した結果を表\ref{tab:Comparison}に示す．
-他社の製品は測定できる項目が多かったり，測定範囲が広かったりするが，
-通信方法が有線通信や，専用のゲートウェイを使用している．
-この部分はWiFiやスマートフォンのテザリングを使用している自作の測定機器が導入しやすくコストが低いというメリットがある．
-
-
-
-\begin{table}[h]
-\centering
-\caption{他社サービスと自作の測定機器の比較（2025年1月9日現在）}
-\begin{tabular}{|c|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
-\hline
-\textbf{項目} & \textbf{自作の測定機器} & \textbf{Wi-Musu} & \textbf{CVS-WXT536} & \textbf{Gill 65} \\ \hline \hline
-通信方法       & WiFi，テザリング & 920MHz専用ゲートウェイ & 有線接続 & 有線通信 \\ \hline
-風速測定範囲   & 0〜15m/s & --- & 0〜60m/s & 0〜65m/s \\ \hline
-測定項目      & 風速，温度，湿度 & 風速，温度，湿度，\newline CO2，浮遊粉塵濃度，\newline 照度，騒音値 & 風，温度，湿度，\newline 気圧，降水 & 風速，風向，温度，\newline 湿度 \\ \hline
-価格 & 11,147円 & --- & 612,700円 & 417,198円 \\ \hline
-\end{tabular}
-\label{tab:Comparison}
-\end{table}
-
-
-
+\section{省電力性能の評価結果}
 
 
 

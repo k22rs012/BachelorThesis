@@ -13,6 +13,8 @@
 %SI単位を利用する場合
 \usepackage{siunitx}
 
+\usepackage[dvipdfmx]{graphicx}
+
 \usepackage{comment}
 \usepackage {threeparttable}
 
@@ -45,8 +47,8 @@
 
 \begin{document}
 
-\setcounter{tocdepth}{3}
-\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{6}
+\setcounter{secnumdepth}{6}
 
 \thispagestyle{empty}
 
@@ -91,7 +93,7 @@
 \input{3development.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{要求仕様と設計}\label{chap:requirement}
+\chapter{設計}\label{chap:requirement}
 \input{4requirement.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,12 +111,12 @@
 \input{7measurementMethod.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\chapter{測定結果と評価}\label{chap:measurementResults}
-%\input{8measurementResults.tex}
+\chapter{測定結果と評価}\label{chap:measurementResults}
+\input{8measurementResults.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- %\chapter{結論}\label{chap:conclusion}
-%\input{9conclusion.tex}
+ \chapter{結論}\label{chap:conclusion}
+\input{9conclusion.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\chapter*{謝辞}
