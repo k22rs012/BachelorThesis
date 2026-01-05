@@ -2,6 +2,7 @@
 
 % 図を利用する場合
 \usepackage{url}
+\usepackage{placeins}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -83,7 +84,8 @@
 %\renewcommand{\bibname}{参考文献}
 
 
-
+\clearpage
+\setcounter{page}{1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{序論}\label{chap:Introduction}
 \input{1introduction.tex}
@@ -98,7 +100,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{測定機器の開発}\label{chap:hardwareDevelopment}
+\chapter{測定機器の実装}\label{chap:hardwareDevelopment}
 \input{5hardwareDevelopment.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
