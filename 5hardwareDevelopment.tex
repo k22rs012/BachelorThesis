@@ -13,14 +13,14 @@
   \centering
   \begin{subfigure}{0.4\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/Device0}
+    \includegraphics[width=\linewidth]{figures/IMG_9311}
     \caption{プロトタイプ}
     \label{fig:Device0}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.4\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/Device1}
+    \includegraphics[width=\linewidth]{figures/sisakuki_1}
     \caption{測定機器1}
     \label{fig:Finishing machine}
   \end{subfigure}
@@ -44,14 +44,14 @@
   \centering
   \begin{subfigure}{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/Device1}
+    \includegraphics[width=\linewidth]{figures/Image (21)}
     \caption{測定機器2}
     \label{fig:Device2}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/Device3}
+    \includegraphics[width=\linewidth]{figures/buttontuki}
     \caption{測定機器3}
     \label{fig:Finishing machine}
   \end{subfigure}
@@ -76,51 +76,33 @@
 \begin{figure}[H]
   \centering
 
-  \begin{subfigure}{0.3\linewidth}
+
+  \begin{subfigure}{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{./figures/LTE-prototype}
+    \includegraphics[height=\linewidth,angle=-90]{./figures/LTE-prototype}
     \caption{LTEを使用した試作機}
     \label{fig:LTE-prototype}
   \end{subfigure}
-  \hfill
-  \begin{subfigure}{0.3\linewidth}
+
+  \vspace{5mm} 
+  
+  \begin{subfigure}{0.45\linewidth}
     \centering
     \includegraphics[width=\linewidth]{./figures/LTE-ESP-front}
-    \caption{測定機器4表面}
+    \caption{測定機器表面}
     \label{fig:LTE-ESP-front}
   \end{subfigure}
   \hfill
-  \begin{subfigure}{0.3\linewidth}
+  \begin{subfigure}{0.45\linewidth}
     \centering
     \includegraphics[width=\linewidth]{./figures/LTE-ESP-back}
-    \caption{測定機器4裏面}
+    \caption{測定機器裏面}
     \label{fig:LTE-ESP-back}
   \end{subfigure}
 
   \caption{LTEを使用した測定機器}
   \label{fig:sample}
 \end{figure}
-
-
-\begin{table}[htbp]
-\centering
-\caption{開発した測定機器の比較}
-\begin{tabular}{|c|c|c|c|}
-\hline
-項目 & 測定機器1 & 測定機器2 & 測定機器3 \\ \hline \hline
-マイクロコントローラ & ESP32-C6 & ESP32-C6 & ESP32-C6 \\ \hline
-CO$_2$ センサ & SCD41 & SCD41 & SCD41 \\ \hline
-通信方式 & Wi-Fi & Wi-Fi & LTE（SIM7080G） \\ \hline
-屋外利用 & テザリングが必要 & テザリングが必要 & 単体で可能 \\ \hline
-電源方式 & Li-Po バッテリ & Li-Po バッテリ & Li-Po バッテリ \\ \hline
-操作方法 & ボタン操作 & ボタン操作 & ボタン操作 \\ \hline
-状態表示 & LED 表示 & LED 表示 & LED 表示 \\ \hline
-筐体サイズ & 標準 & 約1/3に小型化 & 測定機器2と同等 \\ \hline
-主な目的 & 動作確認 & 携帯性向上 & 実用性向上 \\ \hline
-\end{tabular}
-\label{tab:device_comparison}
-\end{table}
-
 \FloatBarrier
 
 \section{DeepSleep を用いた省電力制御}

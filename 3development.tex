@@ -22,12 +22,39 @@
 
 これらの特性から，本研究では高い演算性能と低消費電力動作を両立できるマイクロコントローラとして ESP32-C6 を採用した。
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=.4\linewidth]{./figures/SeeedESP32C6}
-\caption{ESP32-C6}
-\label{fig:SeeedESP32C6}
+
+\begin{minipage}{0.42\linewidth}
+  \centering
+  \includegraphics[width=\linewidth]{./figures/SeeedESP32C6}
+  \captionof{figure}{SeeedESP32C6}
+  \label{fig:SeeedESP32C6}
+\end{minipage}
+\hfill
+\begin{minipage}{0.52\linewidth}
+  \centering
+  \captionof{table}{ESP32C6の主なパラメータ}
+  \label{tab:scd41Parameters}
+  \begin{tabular}{|c|c|}
+    \hline
+    モデルNo. & SCD41 \\ \hline \hline
+    I2Cアドレス & 0x62 \\ \hline
+    測定対象 & CO$_2$，温度，湿度 \\ \hline
+    CO$_2$測定範囲 & 400$\sim$5000 ppm \\ \hline
+    CO$_2$測定精度 & $\pm$(40 ppm + 5\%) \\ \hline
+    温度測定範囲 & -10$\sim$60 ℃ \\ \hline
+    湿度測定範囲 & 0$\sim$95 \%RH \\ \hline
+    解像度 & 16ビット \\ \hline
+    入力電圧 & 2.4$\sim$5.5 V \\ \hline
+    平均消費電流 & 約15 mA \\ \hline
+    ボード寸法 & 約10.1 $\times$ 10.1 $\times$ 7.0 mm \\ \hline
+    対応温度 & -10$\sim$60 ℃ \\ \hline
+  \end{tabular}
+\end{minipage}
+
 \end{figure}
+
 
 \FloatBarrier
 
@@ -49,9 +76,9 @@ SCD41 は NDIR（Non-Dispersive Infrared）方式を採用した高精度なCO$_
 
 \begin{minipage}{0.42\linewidth}
   \centering
-  \includegraphics[width=\linewidth]{./figures/SCD41}
+  \includegraphics[width=\linewidth]{./figures/scd41_new}
   \captionof{figure}{SCD41}
-  \label{fig:SCD41}
+  \label{fig:sensor}
 \end{minipage}
 \hfill
 \begin{minipage}{0.52\linewidth}
@@ -99,7 +126,7 @@ SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信�
 
 \begin{minipage}{0.42\linewidth}
   \centering
-  \includegraphics[width=\linewidth]{./figures/SIM7080G}
+  \includegraphics[width=\linewidth]{./figures/porttype}
   \captionof{figure}{SIM7080G}
   \label{fig:SIM7080G}
 \end{minipage}
@@ -187,7 +214,7 @@ BME680 は，Bosch Sensortec 社製の環境センサであり，温度，湿度
 
 \begin{minipage}{0.42\linewidth}
   \centering
-  \includegraphics[width=\linewidth]{./figures/bme680}
+  \includegraphics[width=\linewidth]{./figures/bme}
   \captionof{figure}{BME680}
   \label{fig:BME680}
 \end{minipage}
