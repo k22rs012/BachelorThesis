@@ -14,17 +14,17 @@
 
 \subsection{マイクロコントローラ ESP32-C6}
 本研究では，マイクロコントローラとして Seeed Studio XIAO ESP32-C6 を採用した。
-本モジュールは ESP32-C6 SoC を搭載しており，2つの32ビット RISC-V プロセッサで構成されている。
-高性能（High Performance: HP）プロセッサは最大160\,MHzで動作し，低消費電力（Low Power: LP）プロセッサは最大20\,MHzでの動作が可能である。
-
+本モジュールは 32ビット RISC-V アーキテクチャのシングルコアプロセッサを搭載しており，高性能動作および低消費電力動作の2種類の動作モードを有している。
+高性能動作モード（High Performance: HP）は最大160\,MHzで動作し，低消費電力動作モード（Low Power: LP）は最大20\,MHzでの動作が可能である。
+ 
 また，512\,KBのSRAMおよび4\,MBのフラッシュメモリを内蔵しており，センサ制御，通信処理，データ管理を同時に行うIoT用途に十分な記憶容量を備えている。
 無線通信機能として，2.4\,GHz Wi-Fi 6，Bluetooth 5.3，Zigbee，Thread（IEEE 802.15.4）をサポートしており，Matterにネイティブ対応している点も特徴である。
-
-これらの特性から，本研究では高い演算性能と低消費電力動作を両立できるマイクロコントローラとして ESP32-C6 を採用した。
+ 
+これらの特性から，本研究では低消費電力動作と通信性能を両立できるマイクロコントローラとして ESP32-C6 を採用した。
 
 \begin{figure}[H]
 \centering
-
+ 
 \begin{minipage}{0.42\linewidth}
   \centering
   \includegraphics[width=\linewidth]{./figures/SeeedESP32C6}
@@ -35,24 +35,22 @@
 \begin{minipage}{0.52\linewidth}
   \centering
   \captionof{table}{ESP32C6の主なパラメータ}
-  \label{tab:scd41Parameters}
+  \label{tab:SeeedESP32C6Parameters}
   \begin{tabular}{|c|c|}
     \hline
-    モデルNo. & SCD41 \\ \hline \hline
-    I2Cアドレス & 0x62 \\ \hline
-    測定対象 & CO$_2$，温度，湿度 \\ \hline
-    CO$_2$測定範囲 & 400$\sim$5000 ppm \\ \hline
-    CO$_2$測定精度 & $\pm$(40 ppm + 5\%) \\ \hline
-    温度測定範囲 & -10$\sim$60 ℃ \\ \hline
-    湿度測定範囲 & 0$\sim$95 \%RH \\ \hline
-    解像度 & 16ビット \\ \hline
-    入力電圧 & 2.4$\sim$5.5 V \\ \hline
-    平均消費電流 & 約15 mA \\ \hline
-    ボード寸法 & 約10.1 $\times$ 10.1 $\times$ 7.0 mm \\ \hline
-    対応温度 & -10$\sim$60 ℃ \\ \hline
+    モデルNo. & Seeed XIAO ESP32C6 \\ \hline \hline
+    CPU & RISC-V 32bit（シングルコア） \\ \hline
+    最大動作周波数 & 160 MHz \\ \hline
+    無線通信 & Wi-Fi 6（802.11 b/g/n/ax），Bluetooth 5.3，IEEE 802.15.4 \\ \hline
+    対応プロトコル & Thread，Zigbee，Matter \\ \hline
+    通信方式 & UART，I2C，SPI，PWM \\ \hline
+    動作電圧 & 3.3 V \\ \hline
+    入力電圧 & 5 V（USB）/ 5 V・3.3 Vピン \\ \hline
+    ボード寸法 & 約21.0 $\times$ 17.5 mm \\ \hline
+    対応温度 & -40$\sim$85 ℃（MCU仕様） \\ \hline
   \end{tabular}
 \end{minipage}
-
+ 
 \end{figure}
 
 
@@ -60,10 +58,9 @@
 
 
 \subsection{CO$_2$センサモジュール SCD41}
-二酸化炭素濃度は，室内空気質を評価する上で重要な指標の一つであり，換気状態や居住環境の快適性と密接に関係している。
 本研究では，CO$_2$センサとして Sensirion 社製 SCD41 を搭載したモジュールを使用した。
 
-SCD41 は NDIR（Non-Dispersive Infrared）方式を採用した高精度なCO$_2$センサであり，小型かつ低消費電力である点が特徴である。
+SCD41 は NDIR方式を採用した高精度なCO$_2$センサであり，小型かつ低消費電力である点が特徴である。
 また，温度および湿度センサを内蔵しており，これらの測定値を用いた補正により，安定したCO$_2$濃度測定が可能である。
 
 本モジュールは 2.54\,mm ピッチのピンインターフェースを備えており，I$^2$C通信によってマイクロコントローラと接続される。
@@ -165,9 +162,33 @@ Arduino MKR WiFi 1010 は，SAMD21G18A マイクロコントローラを中心�
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=.5\linewidth]{./figures/Arduino}
-\caption{Arduino MKR WiFi 1010}
-\label{fig:Arduino}
+ 
+\begin{minipage}{0.42\linewidth}
+  \centering
+  \includegraphics[width=\linewidth]{./figures/Arduino}
+  \caption{Arduino MKR WiFi 1010}
+  \label{fig:Arduino}
+\end{minipage}
+\hfill
+\begin{minipage}{0.52\linewidth}
+  \centering
+  \captionof{table}{Arduino MKR WiFi 1010}
+  \label{tab:ArduinoParameters}
+  \begin{tabular}{|c|c|}
+    \hline
+      モデルNo. & Arduino MKR WiFi 1010 \\ \hline \hline
+      CPU & ARM Cortex-M0+ \\ \hline
+      最大動作周波数 & 48 MHz \\ \hline
+      無線通信 & Wi-Fi（802.11 b/g/n），Bluetooth Low Energy \\ \hline
+      対応プロトコル & TCP/IP，SSL/TLS \\ \hline
+      通信方式 & UART，I2C，SPI，PWM \\ \hline
+      動作電圧 & 3.3 V \\ \hline
+      入力電圧 & 5 V（USB）/ VIN 7$\sim$12 V \\ \hline
+      ボード寸法 & 約61.5 $\times$ 25.0 mm \\ \hline
+      対応温度 & 0$\sim$70 ℃（一般動作範囲） \\ \hline
+  \end{tabular}
+\end{minipage}
+ 
 \end{figure}
 \FloatBarrier
 
