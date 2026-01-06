@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  6 JAN 2026 21:22
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  7 JAN 2026 05:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,55 +746,59 @@ File: figures/akamurakaidan.eps Graphic file (type eps)
 File: figures/akamura2kai.eps Graphic file (type eps)
  <figures/akamura2kai.eps>
 
-[22])
+[22]
+File: ./figures/kosimae.eps Graphic file (type eps)
+ <./figures/kosimae.eps>
 
-[23]
+[23])
+
+[24]
 第 6 章
 (./8measurementResults.tex
 
-[24
+[25
 
 ]
 File: ./figures/赤村比較.eps Graphic file (type eps)
  <./figures/赤村比較.eps>
 
-[25]
+[26]
 File: ./figures/densyanai.eps Graphic file (type eps)
  <./figures/densyanai.eps>
 
-LaTeX Warning: Reference `fig:mune' on page 26 undefined on input line 83.
+LaTeX Warning: Reference `fig:mune' on page 27 undefined on input line 83.
 
 
-
-[26]
-File: ./figures/voltage.eps Graphic file (type eps)
- <./figures/voltage.eps>
-File: ./figures/voltage.eps Graphic file (type eps)
- <./figures/voltage.eps>
 
 [27]
+File: ./figures/voltage.eps Graphic file (type eps)
+ <./figures/voltage.eps>
+File: ./figures/voltage.eps Graphic file (type eps)
+ <./figures/voltage.eps>
 
 [28]
+
+[29]
 File: ./figures/alcohol.eps Graphic file (type eps)
  <./figures/alcohol.eps>
 
-[29])
+[30])
 
-[30]
+[31]
 第 7 章
 (./9conclusion.tex Excluding 'comment' comment.
 
-[31
+[32
 
 ]) (./paper.bbl
 
-[32]
+[33]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[33
+[34
 
 ] (./paper.aux)
  ***********
@@ -811,12 +815,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12781 strings out of 473836
- 259071 string characters out of 5731190
- 618434 words of memory out of 5000000
- 35885 multiletter control sequences out of 15000+600000
+ 12790 strings out of 473836
+ 259284 string characters out of 5731190
+ 618461 words of memory out of 5000000
+ 35893 multiletter control sequences out of 15000+600000
  579022 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  73i,11n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (34 pages, 117788 bytes).
+Output written on paper.dvi (35 pages, 119900 bytes).
