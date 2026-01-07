@@ -10,7 +10,7 @@
 
 \section{新規に作成した機器}
 本研究では，携帯型CO$_2$測定デバイスの実現を目的として，新たにハードウェア構成を設計・試作した。
-本節では，試作機を構成する各機器について説明する。
+本節では，測定機器を構成する各機器について説明する。
 
 \subsection{マイクロコントローラ ESP32-C6}
 本研究では，マイクロコントローラとして Seeed Studio XIAO ESP32-C6 を採用した。
@@ -24,35 +24,29 @@
 
 \begin{figure}[H]
 \centering
- 
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/SeeedESP32C6}
-  \captionof{figure}{SeeedESP32C6}
-  \label{fig:SeeedESP32C6}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{ESP32C6の主なパラメータ}
-  \label{tab:SeeedESP32C6Parameters}
-  \begin{tabular}{|c|c|}
-    \hline
-    モデルNo. & Seeed XIAO ESP32C6 \\ \hline \hline
-    CPU & RISC-V 32bit（シングルコア） \\ \hline
-    最大動作周波数 & 160 MHz \\ \hline
-    無線通信 & Wi-Fi 6（802.11 b/g/n/ax），Bluetooth 5.3，IEEE 802.15.4 \\ \hline
-    対応プロトコル & Thread，Zigbee，Matter \\ \hline
-    通信方式 & UART，I2C，SPI，PWM \\ \hline
-    動作電圧 & 3.3 V \\ \hline
-    入力電圧 & 5 V（USB）/ 5 V・3.3 Vピン \\ \hline
-    ボード寸法 & 約21.0 $\times$ 17.5 mm \\ \hline
-    対応温度 & -40$\sim$85 ℃（MCU仕様） \\ \hline
-  \end{tabular}
-\end{minipage}
- 
+\includegraphics[width=0.5\linewidth]{./figures/SeeedESP32C6}
+\caption{Seeed XIAO ESP32-C6}
+\label{fig:SeeedESP32C6}
 \end{figure}
 
+\begin{table}[H]
+\centering
+\caption{ESP32-C6 の主なパラメータ}
+\label{tab:SeeedESP32C6Parameters}
+\begin{tabular}{|c|c|}
+  \hline
+  モデルNo. & Seeed XIAO ESP32-C6 \\ \hline \hline
+  CPU & RISC-V 32bit（シングルコア） \\ \hline
+  最大動作周波数 & 160 MHz \\ \hline
+  無線通信 & Wi-Fi 6（802.11 b/g/n/ax），Bluetooth 5.3，IEEE 802.15.4 \\ \hline
+  対応プロトコル & Thread，Zigbee，Matter \\ \hline
+  通信方式 & UART，I2C，SPI，PWM \\ \hline
+  動作電圧 & 3.3 V \\ \hline
+  入力電圧 & 5 V（USB）/ 5 V・3.3 V ピン \\ \hline
+  ボード寸法 & 約 21.0 $\times$ 17.5 mm \\ \hline
+  対応温度 & -40$\sim$85 ℃（MCU仕様） \\ \hline
+\end{tabular}
+\end{table}
 
 \FloatBarrier
 
@@ -70,36 +64,31 @@ SCD41 は NDIR方式を採用した高精度なCO$_2$センサであり，小型
 
 \begin{figure}[H]
 \centering
-
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/scd41_new}
-  \captionof{figure}{SCD41}
-  \label{fig:sensor}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{SCD41の主なパラメータ}
-  \label{tab:scd41Parameters}
-  \begin{tabular}{|c|c|}
-    \hline
-    モデルNo. & SCD41 \\ \hline \hline
-    I2Cアドレス & 0x62 \\ \hline
-    測定対象 & CO$_2$，温度，湿度 \\ \hline
-    CO$_2$測定範囲 & 400$\sim$5000 ppm \\ \hline
-    CO$_2$測定精度 & $\pm$(40 ppm + 5\%) \\ \hline
-    温度測定範囲 & -10$\sim$60 ℃ \\ \hline
-    湿度測定範囲 & 0$\sim$95 \%RH \\ \hline
-    解像度 & 16ビット \\ \hline
-    入力電圧 & 2.4$\sim$5.5 V \\ \hline
-    平均消費電流 & 約15 mA \\ \hline
-    ボード寸法 & 約10.1 $\times$ 10.1 $\times$ 7.0 mm \\ \hline
-    対応温度 & -10$\sim$60 ℃ \\ \hline
-  \end{tabular}
-\end{minipage}
-
+\includegraphics[width=0.5\linewidth]{./figures/scd41_new}
+\caption{SCD41}
+\label{fig:sensor}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\caption{SCD41の主なパラメータ}
+\label{tab:scd41Parameters}
+\begin{tabular}{|c|c|}
+  \hline
+  モデルNo. & SCD41 \\ \hline \hline
+  I2Cアドレス & 0x62 \\ \hline
+  測定対象 & CO$_2$，温度，湿度 \\ \hline
+  CO$_2$測定範囲 & 400$\sim$5000 ppm \\ \hline
+  CO$_2$測定精度 & $\pm$(40 ppm + 5\%) \\ \hline
+  温度測定範囲 & -10$\sim$60 ℃ \\ \hline
+  湿度測定範囲 & 0$\sim$95 \%RH \\ \hline
+  解像度 & 16ビット \\ \hline
+  入力電圧 & 2.4$\sim$5.5 V \\ \hline
+  平均消費電流 & 約15 mA \\ \hline
+  ボード寸法 & 約10.1 $\times$ 10.1 $\times$ 7.0 mm \\ \hline
+  動作温度範囲 & -10$\sim$60 ℃ \\ \hline
+\end{tabular}
+\end{table}
 
 \FloatBarrier
 
@@ -120,32 +109,27 @@ SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信�
 
 \begin{figure}[H]
 \centering
-
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/porttype}
-  \captionof{figure}{SIM7080G}
-  \label{fig:SIM7080G}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{SIM7080Gの主なパラメータ}
-  \label{tab:sim7080gParameters}
-  \begin{tabular}{|c|c|}
-    \hline
-    項目 & 内容 \\ \hline \hline
-    対応通信方式 & LTE Cat.M1 / NB-IoT \\ \hline
-    対応周波数帯 & LTE Band 1, 3, 8, 18, 19, 26 ほか \\ \hline
-    通信プロトコル & TCP/IP, UDP, HTTP \\ \hline
-    動作電圧 & 3.3$\sim$4.2 V \\ \hline
-    消費電力（待機時） & 数 mA 程度 \\ \hline
-    動作温度範囲 & -40$\sim$85 ℃ \\ \hline
-    用途 & M2M / IoT 通信 \\ \hline
-  \end{tabular}
-\end{minipage}
-
+\includegraphics[width=0.5\linewidth]{./figures/porttype}
+\caption{SIM7080G}
+\label{fig:SIM7080G}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\caption{SIM7080Gの主なパラメータ}
+\label{tab:sim7080gParameters}
+\begin{tabular}{|c|c|}
+  \hline
+  項目 & 内容 \\ \hline \hline
+  対応通信方式 & LTE Cat.M1 / NB-IoT \\ \hline
+  対応周波数帯 & LTE Band 1, 3, 8, 18, 19, 26 ほか \\ \hline
+  通信プロトコル & TCP/IP, UDP, HTTP \\ \hline
+  動作電圧 & 3.3$\sim$4.2 V \\ \hline
+  消費電力（待機時） & 数 mA 程度 \\ \hline
+  動作温度範囲 & -40$\sim$85 ℃ \\ \hline
+  用途 & M2M / IoT 通信 \\ \hline
+\end{tabular}
+\end{table}
 \FloatBarrier
 
 \subsection{SIMカード}
@@ -160,36 +144,31 @@ SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信�
 \subsection{Arduino MKR WiFi 1010}
 Arduino MKR WiFi 1010 は，SAMD21G18A マイクロコントローラを中心に，無線通信機能を担う NINA-W102 モジュールや，セキュア通信を実現する暗号チップ ATECC508 を搭載した小型開発ボードである。また，外部 SPI フラッシュメモリとして 2\,MB の記憶領域を備えており，プログラムやデータの保存が可能である。先行研究では，室内環境計測用デバイスの制御用マイクロコントローラとして使用されていた。
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
- 
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/Arduino}
-  \caption{Arduino MKR WiFi 1010}
-  \label{fig:Arduino}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{Arduino MKR WiFi 1010}
-  \label{tab:ArduinoParameters}
-  \begin{tabular}{|c|c|}
-    \hline
-      モデルNo. & Arduino MKR WiFi 1010 \\ \hline \hline
-      CPU & ARM Cortex-M0+ \\ \hline
-      最大動作周波数 & 48 MHz \\ \hline
-      無線通信 & Wi-Fi（802.11 b/g/n），Bluetooth Low Energy \\ \hline
-      対応プロトコル & TCP/IP，SSL/TLS \\ \hline
-      通信方式 & UART，I2C，SPI，PWM \\ \hline
-      動作電圧 & 3.3 V \\ \hline
-      入力電圧 & 5 V（USB）/ VIN 7$\sim$12 V \\ \hline
-      ボード寸法 & 約61.5 $\times$ 25.0 mm \\ \hline
-      対応温度 & 0$\sim$70 ℃（一般動作範囲） \\ \hline
-  \end{tabular}
-\end{minipage}
- 
+\includegraphics[width=0.5\linewidth]{./figures/Arduino}
+\caption{Arduino MKR WiFi 1010}
+\label{fig:Arduino}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Arduino MKR WiFi 1010 の主な仕様}
+\label{tab:ArduinoParameters}
+\begin{tabular}{|c|c|}
+  \hline
+  モデルNo. & Arduino MKR WiFi 1010 \\ \hline \hline
+  CPU & ARM Cortex-M0+ \\ \hline
+  最大動作周波数 & 48 MHz \\ \hline
+  無線通信 & Wi-Fi（802.11 b/g/n），Bluetooth Low Energy \\ \hline
+  対応プロトコル & TCP/IP，SSL/TLS \\ \hline
+  通信方式 & UART，I2C，SPI，PWM \\ \hline
+  動作電圧 & 3.3 V \\ \hline
+  入力電圧 & 5 V（USB）/ VIN 7$\sim$12 V \\ \hline
+  ボード寸法 & 約 61.5 $\times$ 25.0 mm \\ \hline
+  対応温度 & 0$\sim$70 ℃（一般動作範囲） \\ \hline
+\end{tabular}
+\end{table}
 \FloatBarrier
 
 \subsection{CO$_2$センサ MH-Z19C}
@@ -197,33 +176,28 @@ MH-Z19C は，Winsen 社が製造する NDIR 方式の CO$_2$ センサモジュ
 
 \begin{figure}[H]
 \centering
-
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/mh-z19c}
-  \captionof{figure}{MH-Z19C}
-  \label{fig:mh-z19c}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{MH-Z19Cの主なパラメータ}
-  \label{tab:mhz19cParameters}
-  \begin{tabular}{|c|c|}
-    \hline
-    項目 & 内容 \\ \hline \hline
-    測定方式 & NDIR \\ \hline
-    CO$_2$測定範囲 & 0$\sim$5000 ppm \\ \hline
-    測定精度 & $\pm$(50 ppm + 5\%) \\ \hline
-    応答時間 & $<$120 s \\ \hline
-    動作電圧 & 4.5$\sim$5.5 V \\ \hline
-    平均消費電流 & 約60 mA \\ \hline
-    通信方式 & UART / PWM \\ \hline
-    用途 & 室内据え置き測定 \\ \hline
-  \end{tabular}
-\end{minipage}
-
+\includegraphics[width=0.5\linewidth]{./figures/mh-z19c}
+\caption{MH-Z19C}
+\label{fig:mh-z19c}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\caption{MH-Z19Cの主なパラメータ}
+\label{tab:mhz19cParameters}
+\begin{tabular}{|c|c|}
+  \hline
+  項目 & 内容 \\ \hline \hline
+  測定方式 & NDIR \\ \hline
+  CO$_2$測定範囲 & 0$\sim$5000 ppm \\ \hline
+  測定精度 & $\pm$(50 ppm + 5\%) \\ \hline
+  応答時間 & $<$120 s \\ \hline
+  動作電圧 & 4.5$\sim$5.5 V \\ \hline
+  平均消費電流 & 約60 mA \\ \hline
+  通信方式 & UART / PWM \\ \hline
+  用途 & 室内据え置き測定 \\ \hline
+\end{tabular}
+\end{table}
 \FloatBarrier
 
 
@@ -232,30 +206,61 @@ BME680 は，Bosch Sensortec 社製の環境センサであり，温度，湿度
 
 \begin{figure}[H]
 \centering
+\includegraphics[width=0.5\linewidth]{./figures/bme}
+\caption{BME680}
+\label{fig:BME680}
+\end{figure}
 
-\begin{minipage}{0.42\linewidth}
-  \centering
-  \includegraphics[width=\linewidth]{./figures/bme}
-  \captionof{figure}{BME680}
-  \label{fig:BME680}
-\end{minipage}
-\hfill
-\begin{minipage}{0.52\linewidth}
-  \centering
-  \captionof{table}{BME680の主なパラメータ}
-  \label{tab:bme680Parameters}
-  \begin{tabular}{|c|c|}
-    \hline
-    項目 & 内容 \\ \hline \hline
-    測定対象 & 温度・湿度・気圧・VOC \\ \hline
-    通信方式 & I$^2$C / SPI \\ \hline
-    動作電圧 & 1.7$\sim$3.6 V \\ \hline
-    用途 & 環境モニタリング \\ \hline
-  \end{tabular}
-\end{minipage}
+\begin{table}[H]
+\centering
+\caption{BME680の主なパラメータ}
+\label{tab:bme680Parameters}
+\begin{tabular}{|c|c|}
+  \hline
+  項目 & 内容 \\ \hline \hline
+  測定対象 & 温度・湿度・気圧・VOC \\ \hline
+  通信方式 & I$^2$C / SPI \\ \hline
+  動作電圧 & 1.7$\sim$3.6 V \\ \hline
+  用途 & 環境モニタリング \\ \hline
+\end{tabular}
+\end{table}
+\FloatBarrier
 
+\section{使用環境}
+\subsection{Arduino IDE}
+本研究におけるソフトウェア開発には Arduino IDE を使用した。Arduino IDE は，マイクロコントローラ向けの統合開発環境であり，プログラムの作成，コンパイル，書き込みを一貫して行うことができる。本研究では Arduino IDE Version 2.3.7 を使用し，ESP32-C6 および各種センサ，通信モジュールの制御プログラムを開発した。また，Arduino CLI Version 1.3.1 が内部的に用いられており，ビルドおよび書き込み処理が行われている。
+
+\subsection{チャートくん}
+チャートくんは本研究室で作成されたiOSアプリである。計測機器からサーバに送信されたデータを時系列グラフに表示できる。また、BLE（Bluetooth Low Energy）を使用して測定機器へ機器のLocation,Wifi,ssidを送信し、接続先を読み書きすることができる。
+このチャートくんを使用して、測定機器を連続稼働させた時のバッテリの稼働時間を計測した。計測結果に関しては第6章 測定結果と評価に記入する。
+
+\begin{figure}[H]
+  \centering
+
+  \begin{subfigure}{0.3\linewidth}
+    \centering
+    \includegraphics[height=45mm,width=45mm,angle=-90]{./figures/LTE-prototype}
+    \caption{LTEを使用した試作機}
+    \label{fig:LTE-prototype}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.3\linewidth}
+    \centering
+    \includegraphics[height=45mm,width=45mm]{./figures/LTE-ESP-front}
+    \caption{測定機器表面}
+    \label{fig:LTE-ESP-front}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.3\linewidth}
+    \centering
+    \includegraphics[height=45mm,width=45mm]{./figures/LTE-ESP-back}
+    \caption{測定機器裏面}
+    \label{fig:LTE-ESP-back}
+  \end{subfigure}
+
+  \caption{LTEを使用した測定機器}
+  \label{fig:sample}
 \end{figure}
 \FloatBarrier
 
-\section{開発環境}
-本研究におけるソフトウェア開発には Arduino IDE を使用した。Arduino IDE は，マイクロコントローラ向けの統合開発環境であり，プログラムの作成，コンパイル，書き込みを一貫して行うことができる。本研究では Arduino IDE Version 2.3.7 を使用し，ESP32-C6 および各種センサ，通信モジュールの制御プログラムを開発した。また，Arduino CLI Version 1.3.1 が内部的に用いられており，ビルドおよび書き込み処理が行われている。
+

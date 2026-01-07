@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  7 JAN 2026 08:59
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 04:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,6 +436,27 @@ LaTeX Warning: Label `fig:Finishing machine' multiply defined.
 LaTeX Warning: Label `sub@fig:Finishing machine' multiply defined.
 
 
+LaTeX Warning: Label `fig:LTE-prototype' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LTE-prototype' multiply defined.
+
+
+LaTeX Warning: Label `fig:LTE-ESP-front' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LTE-ESP-front' multiply defined.
+
+
+LaTeX Warning: Label `fig:LTE-ESP-back' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:LTE-ESP-back' multiply defined.
+
+
+LaTeX Warning: Label `fig:sample' multiply defined.
+
+
 LaTeX Warning: Label `fig:Device1' multiply defined.
 
 
@@ -452,6 +473,9 @@ LaTeX Warning: Label `sub@fig:Finishing machine' multiply defined.
 
 
 LaTeX Warning: Label `fig:Device1' multiply defined.
+
+
+LaTeX Warning: Label `fig:densyanai' multiply defined.
 
 
 LaTeX Warning: Label `fig:densyanai' multiply defined.
@@ -612,9 +636,11 @@ Overfull \hbox (43.60684pt too wide) in paragraph at lines 49--59
 
 [2]
 
-[3])
+[3]
+File: ./figures/Arduino-HZM.eps Graphic file (type eps)
+ <./figures/Arduino-HZM.eps>
 
-[4]
+[4])
 
 [5]
 第 2 章
@@ -633,78 +659,73 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 15.
 File: ./figures/SeeedESP32C6.eps Graphic file (type eps)
  <./figures/SeeedESP32C6.eps>
-Overfull \hbox (178.79689pt too wide) in paragraph at lines 39--52
- [][] 
- []
-
-
 
 [6
 
 ]
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 60.
+(Font)              scaled to size 6.73553pt on input line 54.
 File: ./figures/scd41_new.eps Graphic file (type eps)
  <./figures/scd41_new.eps>
 
 [7]
-File: ./figures/porttype.eps Graphic file (type eps)
- <./figures/porttype.eps>
-Overfull \hbox (66.10475pt too wide) in paragraph at lines 135--146
- [][] 
- []
-
-
 
 [8]
-File: ./figures/Arduino.eps Graphic file (type eps)
- <./figures/Arduino.eps>
-Overfull \hbox (112.26054pt too wide) in paragraph at lines 177--190
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+File: ./figures/porttype.eps Graphic file (type eps)
+ <./figures/porttype.eps>
 
 [9]
+File: ./figures/Arduino.eps Graphic file (type eps)
+ <./figures/Arduino.eps>
+
+[10]
 File: ./figures/mh-z19c.eps Graphic file (type eps)
  <./figures/mh-z19c.eps>
+
+[11]
 File: ./figures/bme.eps Graphic file (type eps)
  <./figures/bme.eps>
 
-[10])
+[12]
+File: ./figures/LTE-prototype.eps Graphic file (type eps)
+ <./figures/LTE-prototype.eps>
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 243.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 243.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 243.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 243.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 243.
+File: ./figures/LTE-ESP-front.eps Graphic file (type eps)
+ <./figures/LTE-ESP-front.eps>
+File: ./figures/LTE-ESP-back.eps Graphic file (type eps)
 
-[11]
+<./figures/LTE-ESP-back.eps>)
+
+[13]
 第 3 章
 (./4requirement.tex
 
-[12
+[14
 
 ]
 
-[13] Excluding 'comment' comment.)
+[15]
 
-[14]
+[16])
+
+[17]
 第 4 章
 (./5hardwareDevelopment.tex
 File: figures/IMG_9311.eps Graphic file (type eps)
  <figures/IMG_9311.eps>
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 15.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 15.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 15.
 File: figures/sisakuki_1.eps Graphic file (type eps)
  <figures/sisakuki_1.eps>
 
-[15
+[18
 
 ]
 File: figures/Image (21).eps Graphic file (type eps)
@@ -712,9 +733,9 @@ File: figures/Image (21).eps Graphic file (type eps)
 File: figures/buttontuki.eps Graphic file (type eps)
  <figures/buttontuki.eps>
 
-[16]
+[19]
 
-[17]
+[20]
 File: ./figures/LTE-prototype.eps Graphic file (type eps)
  <./figures/LTE-prototype.eps>
 File: ./figures/LTE-ESP-front.eps Graphic file (type eps)
@@ -723,85 +744,90 @@ File: ./figures/LTE-ESP-back.eps Graphic file (type eps)
 
 <./figures/LTE-ESP-back.eps>
 
-[18])
+[21])
 
-[19]
+[22]
 第 5 章
 (./7measurementMethod.tex
+
+[23
+
+]
 File: figures/domeHouse.eps Graphic file (type eps)
  <figures/domeHouse.eps>
 File: figures/inside.eps Graphic file (type eps)
  <figures/inside.eps>
-
-[20
-
-]
 File: ./figures/train2.eps Graphic file (type eps)
  <./figures/train2.eps>
 
-[21]
+[24]
 
-[22]
+[25]
 File: figures/akamurakaidan.eps Graphic file (type eps)
  <figures/akamurakaidan.eps>
 File: figures/akamura2kai.eps Graphic file (type eps)
  <figures/akamura2kai.eps>
 
-[23]
+[26]
 File: ./figures/kosimae.eps Graphic file (type eps)
  <./figures/kosimae.eps>)
 
-[24]
+[27]
 第 6 章
 (./8measurementResults.tex
+
+[28
+
+]
 File: ./figures/alcohol.eps Graphic file (type eps)
  <./figures/alcohol.eps>
 
-[25
-
-]
+[29]
 File: ./figures/センサ比較.eps Graphic file (type eps)
  <./figures/センサ比較.eps>
 
-[26]
-
-[27]
+[30]
 File: ./figures/赤村比較.eps Graphic file (type eps)
  <./figures/赤村比較.eps>
 
-[28]
+[31]
+File: ./figures/densyanai.eps Graphic file (type eps)
+ <./figures/densyanai.eps>
 File: ./figures/densyanai.eps Graphic file (type eps)
  <./figures/densyanai.eps>
 
-LaTeX Warning: Reference `fig:mune' on page 29 undefined on input line 113.
-
-
-
-[29]
-File: ./figures/voltage.eps Graphic file (type eps)
- <./figures/voltage.eps>
-File: ./figures/voltage.eps Graphic file (type eps)
- <./figures/voltage.eps>
-
-[30]
-
-[31])
-
 [32]
+
+LaTeX Warning: Reference `fig:mune' on page 33 undefined on input line 109.
+
+File: ./figures/voltage.eps Graphic file (type eps)
+<./figures/voltage.eps>
+
+[33]
+File: ./figures/voltage-Arduino.eps Graphic file (type eps)
+ <./figures/voltage-Arduino.eps>
+
+[34]
+
+[35])
+
+[36]
 第 7 章
 (./9conclusion.tex Excluding 'comment' comment.
 
-[33
+[37
 
-]) (./paper.bbl
+]
 
-[34]
+[38]) (./paper.bbl
+
+[39]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[35
+[40
 
 ] (./paper.aux)
  ***********
@@ -818,12 +844,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12801 strings out of 473836
- 259619 string characters out of 5731190
- 620566 words of memory out of 5000000
- 35903 multiletter control sequences out of 15000+600000
- 579022 words of font info for 133 fonts, out of 8000000 for 9000
+ 12820 strings out of 473836
+ 260141 string characters out of 5731190
+ 620567 words of memory out of 5000000
+ 35919 multiletter control sequences out of 15000+600000
+ 579359 words of font info for 134 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 73i,11n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (36 pages, 126220 bytes).
+Output written on paper.dvi (41 pages, 143844 bytes).
