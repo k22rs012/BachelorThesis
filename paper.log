@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 12:00
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,31 +430,13 @@ File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
 )
 (./paper.aux
 
+LaTeX Warning: Label `fig:Device1looks' multiply defined.
+
+
 LaTeX Warning: Label `fig:Finishing machine' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:Finishing machine' multiply defined.
-
-
-LaTeX Warning: Label `fig:LTE-prototype' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:LTE-prototype' multiply defined.
-
-
-LaTeX Warning: Label `fig:LTE-ESP-front' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:LTE-ESP-front' multiply defined.
-
-
-LaTeX Warning: Label `fig:LTE-ESP-back' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:LTE-ESP-back' multiply defined.
-
-
-LaTeX Warning: Label `fig:sample' multiply defined.
 
 
 LaTeX Warning: Label `fig:Device0' multiply defined.
@@ -701,37 +683,37 @@ File: ./figures/bme.eps Graphic file (type eps)
  <./figures/bme.eps>
 
 [12]
-File: ./figures/LTE-prototype.eps Graphic file (type eps)
- <./figures/LTE-prototype.eps>
+File: figures/co2_24h.eps Graphic file (type eps)
+ <figures/co2_24h.eps>
+File: figures/co2_setting.eps Graphic file (type eps)
+ <figures/co2_setting.eps>
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 248.
+(Font)              scaled to size 9.6222pt on input line 256.
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 248.
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 256.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 248.
+(Font)              scaled to size 9.6222pt on input line 256.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 248.
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 256.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 248.
-File: ./figures/LTE-ESP-front.eps Graphic file (type eps)
- <./figures/LTE-ESP-front.eps>
-File: ./figures/LTE-ESP-back.eps Graphic file (type eps)
+(Font)              scaled to size 9.6222pt on input line 256.
 
-<./figures/LTE-ESP-back.eps>)
 
 [13]
+
+[14])
 第 3 章
 (./4requirement.tex
 
-[14
+[15
 
 ]
 
-[15]
+[16]
 
-[16])
+[17])
 
-[17]
+[18]
 第 4 章
 (./5hardwareDevelopment.tex
 File: figures/IMG_9311.eps Graphic file (type eps)
@@ -739,7 +721,7 @@ File: figures/IMG_9311.eps Graphic file (type eps)
 File: figures/sisakuki_1.eps Graphic file (type eps)
  <figures/sisakuki_1.eps>
 
-[18
+[19
 
 ]
 File: figures/Image (21).eps Graphic file (type eps)
@@ -747,9 +729,9 @@ File: figures/Image (21).eps Graphic file (type eps)
 File: figures/buttontuki.eps Graphic file (type eps)
  <figures/buttontuki.eps>
 
-[19]
-
 [20]
+
+[21]
 File: ./figures/LTE-prototype.eps Graphic file (type eps)
  <./figures/LTE-prototype.eps>
 File: ./figures/LTE-ESP-front.eps Graphic file (type eps)
@@ -758,13 +740,13 @@ File: ./figures/LTE-ESP-back.eps Graphic file (type eps)
 
 <./figures/LTE-ESP-back.eps>
 
-[21])
+[22])
 
-[22]
+[23]
 第 5 章
 (./7measurementMethod.tex
 
-[23
+[24
 
 ]
 File: figures/domeHouse.eps Graphic file (type eps)
@@ -774,69 +756,69 @@ File: figures/inside.eps Graphic file (type eps)
 File: ./figures/train2.eps Graphic file (type eps)
  <./figures/train2.eps>
 
-[24]
-
 [25]
+
+[26]
 File: figures/akamurakaidan.eps Graphic file (type eps)
  <figures/akamurakaidan.eps>
 File: figures/akamura2kai.eps Graphic file (type eps)
  <figures/akamura2kai.eps>
 
-[26]
+[27]
 File: ./figures/kosimae.eps Graphic file (type eps)
  <./figures/kosimae.eps>)
 
-[27]
+[28]
 第 6 章
 (./8measurementResults.tex
 
-[28
+[29
 
 ]
 File: ./figures/alcohol.eps Graphic file (type eps)
  <./figures/alcohol.eps>
 
-[29]
+[30]
 File: ./figures/センサ比較.eps Graphic file (type eps)
  <./figures/センサ比較.eps>
 
-[30]
+[31]
 File: ./figures/赤村比較.eps Graphic file (type eps)
  <./figures/赤村比較.eps>
 
-[31]
+[32]
 File: ./figures/電車比較_行き.eps Graphic file (type eps)
  <./figures/電車比較_行き.eps>
 File: ./figures/電車比較_帰り.eps Graphic file (type eps)
  <./figures/電車比較_帰り.eps>
 
-[32]
-
 [33]
+
+[34]
 File: ./figures/voltage.eps Graphic file (type eps)
  <./figures/voltage.eps>
 File: ./figures/voltage-Arduino.eps Graphic file (type eps)
  <./figures/voltage-Arduino.eps>
 
-[34]
-
 [35]
 
-[36])
+[36]
 
-[37]
+[37])
+
+[38]
 第 7 章
 (./9conclusion.tex Excluding 'comment' comment.
 
-[38
+[39
 
 ]
 
-[39])
+[40])
 
-[40] (./10thanks.tex)
+[41] (./10thanks.tex)
 
-[41
+[42
 
 ] (./paper.bbl
 
@@ -844,7 +826,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[42
+[43
 
 
 ] (./paper.aux)
@@ -859,12 +841,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12862 strings out of 473836
- 261045 string characters out of 5731190
- 623675 words of memory out of 5000000
- 35948 multiletter control sequences out of 15000+600000
+ 12880 strings out of 473836
+ 261479 string characters out of 5731190
+ 623769 words of memory out of 5000000
+ 35964 multiletter control sequences out of 15000+600000
  579359 words of font info for 134 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (47 pages, 179596 bytes).
+Output written on paper.dvi (48 pages, 180144 bytes).

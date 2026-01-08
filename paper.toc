@@ -20,52 +20,52 @@
 \contentsline {section}{\numberline {2.4}使用環境}{13}{}%
 \contentsline {subsection}{\numberline {2.4.1}Arduino IDE}{13}{}%
 \contentsline {subsection}{\numberline {2.4.2}チャートくん}{13}{}%
-\contentsline {chapter}{\numberline {第3章}設計}{14}{}%
-\contentsline {section}{\numberline {3.1}設計の概要}{14}{}%
-\contentsline {section}{\numberline {3.2}設計方針}{14}{}%
-\contentsline {section}{\numberline {3.3}システム全体構成}{15}{}%
-\contentsline {section}{\numberline {3.4}動作設計}{16}{}%
-\contentsline {section}{\numberline {3.5}通信設計}{16}{}%
-\contentsline {section}{\numberline {3.6}省電力設計}{16}{}%
-\contentsline {chapter}{\numberline {第4章}測定機器の実装}{18}{}%
-\contentsline {section}{\numberline {4.1}測定機器1の実装}{18}{}%
-\contentsline {section}{\numberline {4.2}測定機器2,3の実装}{19}{}%
-\contentsline {section}{\numberline {4.3}測定機器3の課題}{20}{}%
-\contentsline {section}{\numberline {4.4}LTE通信方式の検討}{20}{}%
-\contentsline {section}{\numberline {4.5}測定機器4の実装}{20}{}%
-\contentsline {section}{\numberline {4.6}DeepSleep を用いた省電力制御}{21}{}%
-\contentsline {section}{\numberline {4.7}LTE 通信を用いたデータ送信}{22}{}%
-\contentsline {chapter}{\numberline {第5章}測定環境と測定方法}{23}{}%
-\contentsline {section}{\numberline {5.1}概要}{23}{}%
-\contentsline {section}{\numberline {5.2}測定環境}{23}{}%
-\contentsline {subsection}{\numberline {5.2.1}赤村ドームハウスにおける測定環境}{23}{}%
-\contentsline {subsection}{\numberline {5.2.2}電車内における測定環境}{24}{}%
-\contentsline {section}{\numberline {5.3}測定方法}{25}{}%
-\contentsline {subsection}{\numberline {5.3.1}センサの基礎特性確認}{25}{}%
-\contentsline {subsection}{\numberline {5.3.2}据え置き型センサとの比較測定方法}{25}{}%
-\contentsline {subsection}{\numberline {5.3.3}赤村ドームハウスにおける測定方法}{25}{}%
-\contentsline {subsection}{\numberline {5.3.4}電車内における測定方法}{27}{}%
-\contentsline {section}{\numberline {5.4}評価方法}{27}{}%
-\contentsline {chapter}{\numberline {第6章}測定結果と評価}{28}{}%
-\contentsline {section}{\numberline {6.1}概要}{28}{}%
-\contentsline {subsection}{\numberline {6.1.1}測定機器の基礎特性確認結果および評価}{29}{}%
-\contentsline {section}{\numberline {6.2}据え置き型測定機器との測定値比較}{29}{}%
-\contentsline {section}{\numberline {6.3}空間的CO$_2$濃度分布環境における測定結果}{30}{}%
-\contentsline {subsection}{\numberline {6.3.1}ドームハウス内の据え置き型 CO$_2$ 測定機器による測定結果}{30}{}%
-\contentsline {subsection}{\numberline {6.3.2}ドームハウス内の小型 CO$_2$ 測定デバイスによる測定結果}{31}{}%
-\contentsline {subsection}{\numberline {6.3.3}ドームハウス内の据え置き型測定機器との比較評価}{31}{}%
-\contentsline {section}{\numberline {6.4}電車内における CO$_2$ 濃度変化}{31}{}%
-\contentsline {subsection}{\numberline {6.4.1}行き（鳥栖行き普通列車）における測定結果}{32}{}%
-\contentsline {subsection}{\numberline {6.4.2}帰り（門司港行き普通列車）における測定結果}{32}{}%
-\contentsline {subsection}{\numberline {6.4.3}ドア付近とドアから離れた位置における CO$_2$ 濃度の比較}{33}{}%
-\contentsline {section}{\numberline {6.5}省電力性能の評価結果}{33}{}%
-\contentsline {section}{\numberline {6.6}小型化に関する評価}{35}{}%
-\contentsline {chapter}{\numberline {第7章}結論}{38}{}%
-\contentsline {section}{\numberline {7.1}まとめ}{38}{}%
-\contentsline {section}{\numberline {7.2}今後の課題}{39}{}%
-\contentsline {subsection}{\numberline {7.2.1}稼働時間の向上}{39}{}%
-\contentsline {subsection}{\numberline {7.2.2}測定機器のケース作成}{39}{}%
-\contentsline {subsection}{\numberline {7.2.3}授業姿勢の判定への応用}{40}{}%
-\contentsline {subsection}{\numberline {7.2.4}長期間運用における信頼性評価}{40}{}%
-\contentsline {chapter}{謝辞}{41}{}%
-\contentsline {chapter}{参考文献}{42}{}%
+\contentsline {chapter}{\numberline {第3章}設計}{15}{}%
+\contentsline {section}{\numberline {3.1}設計の概要}{15}{}%
+\contentsline {section}{\numberline {3.2}設計方針}{15}{}%
+\contentsline {section}{\numberline {3.3}システム全体構成}{16}{}%
+\contentsline {section}{\numberline {3.4}動作設計}{17}{}%
+\contentsline {section}{\numberline {3.5}通信設計}{17}{}%
+\contentsline {section}{\numberline {3.6}省電力設計}{17}{}%
+\contentsline {chapter}{\numberline {第4章}測定機器の実装}{19}{}%
+\contentsline {section}{\numberline {4.1}測定機器1の実装}{19}{}%
+\contentsline {section}{\numberline {4.2}測定機器2,3の実装}{20}{}%
+\contentsline {section}{\numberline {4.3}測定機器3の課題}{21}{}%
+\contentsline {section}{\numberline {4.4}LTE通信方式の検討}{21}{}%
+\contentsline {section}{\numberline {4.5}測定機器4の実装}{21}{}%
+\contentsline {section}{\numberline {4.6}DeepSleep を用いた省電力制御}{22}{}%
+\contentsline {section}{\numberline {4.7}LTE 通信を用いたデータ送信}{23}{}%
+\contentsline {chapter}{\numberline {第5章}測定環境と測定方法}{24}{}%
+\contentsline {section}{\numberline {5.1}概要}{24}{}%
+\contentsline {section}{\numberline {5.2}測定環境}{24}{}%
+\contentsline {subsection}{\numberline {5.2.1}赤村ドームハウスにおける測定環境}{24}{}%
+\contentsline {subsection}{\numberline {5.2.2}電車内における測定環境}{25}{}%
+\contentsline {section}{\numberline {5.3}測定方法}{26}{}%
+\contentsline {subsection}{\numberline {5.3.1}センサの基礎特性確認}{26}{}%
+\contentsline {subsection}{\numberline {5.3.2}据え置き型センサとの比較測定方法}{26}{}%
+\contentsline {subsection}{\numberline {5.3.3}赤村ドームハウスにおける測定方法}{26}{}%
+\contentsline {subsection}{\numberline {5.3.4}電車内における測定方法}{28}{}%
+\contentsline {section}{\numberline {5.4}評価方法}{28}{}%
+\contentsline {chapter}{\numberline {第6章}測定結果と評価}{29}{}%
+\contentsline {section}{\numberline {6.1}概要}{29}{}%
+\contentsline {subsection}{\numberline {6.1.1}測定機器の基礎特性確認結果および評価}{30}{}%
+\contentsline {section}{\numberline {6.2}据え置き型測定機器との測定値比較}{30}{}%
+\contentsline {section}{\numberline {6.3}空間的CO$_2$濃度分布環境における測定結果}{31}{}%
+\contentsline {subsection}{\numberline {6.3.1}ドームハウス内の据え置き型 CO$_2$ 測定機器による測定結果}{31}{}%
+\contentsline {subsection}{\numberline {6.3.2}ドームハウス内の小型 CO$_2$ 測定デバイスによる測定結果}{32}{}%
+\contentsline {subsection}{\numberline {6.3.3}ドームハウス内の据え置き型測定機器との比較評価}{32}{}%
+\contentsline {section}{\numberline {6.4}電車内における CO$_2$ 濃度変化}{32}{}%
+\contentsline {subsection}{\numberline {6.4.1}行き（鳥栖行き普通列車）における測定結果}{33}{}%
+\contentsline {subsection}{\numberline {6.4.2}帰り（門司港行き普通列車）における測定結果}{33}{}%
+\contentsline {subsection}{\numberline {6.4.3}ドア付近とドアから離れた位置における CO$_2$ 濃度の比較}{34}{}%
+\contentsline {section}{\numberline {6.5}省電力性能の評価結果}{34}{}%
+\contentsline {section}{\numberline {6.6}小型化に関する評価}{36}{}%
+\contentsline {chapter}{\numberline {第7章}結論}{39}{}%
+\contentsline {section}{\numberline {7.1}まとめ}{39}{}%
+\contentsline {section}{\numberline {7.2}今後の課題}{40}{}%
+\contentsline {subsection}{\numberline {7.2.1}稼働時間の向上}{40}{}%
+\contentsline {subsection}{\numberline {7.2.2}測定機器のケース作成}{40}{}%
+\contentsline {subsection}{\numberline {7.2.3}授業姿勢の判定への応用}{41}{}%
+\contentsline {subsection}{\numberline {7.2.4}長期間運用における信頼性評価}{41}{}%
+\contentsline {chapter}{謝辞}{42}{}%
+\contentsline {chapter}{参考文献}{43}{}%
