@@ -58,14 +58,14 @@
 \contentsline {subsection}{\numberline {6.4.1}行き（鳥栖行き普通列車）における測定結果}{33}{}%
 \contentsline {subsection}{\numberline {6.4.2}帰り（門司港行き普通列車）における測定結果}{33}{}%
 \contentsline {subsection}{\numberline {6.4.3}ドア付近とドアから離れた位置における CO$_2$ 濃度の比較}{34}{}%
-\contentsline {section}{\numberline {6.5}省電力性能の評価結果}{34}{}%
-\contentsline {section}{\numberline {6.6}小型化に関する評価}{36}{}%
-\contentsline {chapter}{\numberline {第7章}結論}{39}{}%
-\contentsline {section}{\numberline {7.1}まとめ}{39}{}%
-\contentsline {section}{\numberline {7.2}今後の課題}{40}{}%
-\contentsline {subsection}{\numberline {7.2.1}稼働時間の向上}{40}{}%
-\contentsline {subsection}{\numberline {7.2.2}測定機器のケース作成}{40}{}%
-\contentsline {subsection}{\numberline {7.2.3}授業姿勢の判定への応用}{41}{}%
-\contentsline {subsection}{\numberline {7.2.4}長期間運用における信頼性評価}{41}{}%
-\contentsline {chapter}{謝辞}{42}{}%
-\contentsline {chapter}{参考文献}{43}{}%
+\contentsline {section}{\numberline {6.5}省電力性能の評価結果}{35}{}%
+\contentsline {section}{\numberline {6.6}小型化に関する評価}{37}{}%
+\contentsline {chapter}{\numberline {第7章}結論}{40}{}%
+\contentsline {section}{\numberline {7.1}まとめ}{40}{}%
+\contentsline {section}{\numberline {7.2}今後の課題}{41}{}%
+\contentsline {subsection}{\numberline {7.2.1}稼働時間の向上}{41}{}%
+\contentsline {subsection}{\numberline {7.2.2}測定機器のケース作成}{41}{}%
+\contentsline {subsection}{\numberline {7.2.3}授業姿勢の判定への応用}{42}{}%
+\contentsline {subsection}{\numberline {7.2.4}長期間運用における信頼性評価}{42}{}%
+\contentsline {chapter}{謝辞}{43}{}%
+\contentsline {chapter}{参考文献}{44}{}%

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 12:30
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,28 +793,30 @@ File: ./figures/電車比較_帰り.eps Graphic file (type eps)
 [34]
 File: ./figures/voltage.eps Graphic file (type eps)
  <./figures/voltage.eps>
+
+[35]
 File: ./figures/voltage-Arduino.eps Graphic file (type eps)
  <./figures/voltage-Arduino.eps>
 
-[35]
-
 [36]
 
-[37])
+[37]
 
-[38]
+[38])
+
+[39]
 第 7 章
 (./9conclusion.tex Excluding 'comment' comment.
 
-[39
+[40
 
 ]
 
-[40])
+[41])
 
-[41] (./10thanks.tex)
+[42] (./10thanks.tex)
 
-[42
+[43
 
 ] (./paper.bbl
 
@@ -822,7 +824,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[43
+[44
 
 
 ] (./paper.aux)
@@ -845,4 +847,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (48 pages, 180092 bytes).
+Output written on paper.dvi (49 pages, 181160 bytes).
