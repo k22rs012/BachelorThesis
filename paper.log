@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 11:54
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,12 +48,6 @@ Type  H <return>  for immediate help.
                                                   
 l.703 ...eclareSymbolFontAlphabet{\mathmc}{mincho}
                                                   
-? \
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? 
 
 ! LaTeX Error: Encoding scheme `JY1' unknown.
@@ -873,4 +867,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (47 pages, 179532 bytes).
+Output written on paper.dvi (47 pages, 179596 bytes).
