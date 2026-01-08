@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 12:18
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.18)  8 JAN 2026 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,9 +430,6 @@ File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
 )
 (./paper.aux
 
-LaTeX Warning: Label `fig:Device1looks' multiply defined.
-
-
 LaTeX Warning: Label `fig:Finishing machine' multiply defined.
 
 
@@ -687,17 +684,6 @@ File: figures/co2_24h.eps Graphic file (type eps)
  <figures/co2_24h.eps>
 File: figures/co2_setting.eps Graphic file (type eps)
  <figures/co2_setting.eps>
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 256.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 256.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 256.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 256.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 256.
-
 
 [13]
 
@@ -718,6 +704,16 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (./5hardwareDevelopment.tex
 File: figures/IMG_9311.eps Graphic file (type eps)
  <figures/IMG_9311.eps>
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 15.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 15.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 15.
 File: figures/sisakuki_1.eps Graphic file (type eps)
  <figures/sisakuki_1.eps>
 
@@ -841,12 +837,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12880 strings out of 473836
- 261479 string characters out of 5731190
- 623769 words of memory out of 5000000
- 35964 multiletter control sequences out of 15000+600000
+ 12881 strings out of 473836
+ 261488 string characters out of 5731190
+ 623796 words of memory out of 5000000
+ 35965 multiletter control sequences out of 15000+600000
  579359 words of font info for 134 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (48 pages, 180144 bytes).
+Output written on paper.dvi (48 pages, 180092 bytes).
