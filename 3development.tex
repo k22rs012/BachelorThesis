@@ -13,15 +13,15 @@
 本節では，測定機器を構成する各機器について説明する．
 
 \subsection{マイクロコントローラ ESP32-C6}
-本研究では，マイクロコントローラとして Seeed Studio XIAO ESP32-C6 を採用した．
+本研究では，マイクロコントローラとして Seeed Studio XIAO ESP32-C6 （図\ref{fig:SeeedESP32C6}）を採用した．
 本モジュールは 32ビット RISC-V アーキテクチャのシングルコアプロセッサを搭載しており，高性能動作および低消費電力動作の2種類の動作モードを有している．
 高性能動作モード（High Performance: HP）は最大160\,MHzで動作し，低消費電力動作モード（Low Power: LP）は最大20\,MHzでの動作が可能である．
  
 また，512\,KBのSRAMおよび4\,MBのフラッシュメモリを内蔵しており，センサ制御，通信処理，データ管理を同時に行うIoT用途に十分な記憶容量を備えている．
 無線通信機能として，2.4\,GHz Wi-Fi 6，Bluetooth 5.3，Zigbee，Thread（IEEE 802.15.4）をサポートしており，Matterにネイティブ対応している点も特徴である．
  
-これらの特性から，本研究では低消費電力動作と通信性能を両立できるマイクロコントローラとして ESP32-C6 を採用した．
-
+これらの特性から，本研究では低消費電力動作と通信性能を両立できるマイクロコントローラとして ESP32-C6 を採用した．本モジュールの主なパラメータを表
+\ref{tab:SeeedESP32C6Parameters}に示す．
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{./figures/SeeedESP32C6}
@@ -33,9 +33,10 @@
 \centering
 \caption{ESP32-C6 の主なパラメータ}
 \label{tab:SeeedESP32C6Parameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
-  モデルNo. & Seeed XIAO ESP32-C6 \\ \hline \hline
+  \multicolumn{1}{|c|}{ モデルNo. }&\multicolumn{1}{c|}{Seeed XIAO ESP32-C6 }
+ \\ \hline \hline
   CPU & RISC-V 32bit（シングルコア） \\ \hline
   最大動作周波数 & 160 MHz \\ \hline
   無線通信 & Wi-Fi 6（802.11 b/g/n/ax），Bluetooth 5.3，IEEE 802.15.4 \\ \hline
@@ -52,7 +53,7 @@
 
 
 \subsection{CO$_2$センサモジュール SCD41}
-本研究では，CO$_2$センサとして Sensirion 社製 SCD41 を搭載したモジュールを使用した．
+本研究では，CO$_2$センサとして Sensirion 社製 SCD41 （図\ref{fig:sensor}）を搭載したモジュールを使用した．
 
 SCD41 は NDIR方式を採用した高精度なCO$_2$センサであり，小型かつ低消費電力である点が特徴である．
 また，温度および湿度センサを内蔵しており，これらの測定値を用いた補正により，安定したCO$_2$濃度測定が可能である．
@@ -73,10 +74,11 @@ SCD41 は NDIR方式を採用した高精度なCO$_2$センサであり，小型
 \centering
 \caption{SCD41の主なパラメータ}
 \label{tab:scd41Parameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
-  モデルNo. & SCD41 \\ \hline \hline
-  I2Cアドレス & 0x62 \\ \hline
+  \multicolumn{1}{|c|}{ モデルNo. }&\multicolumn{1}{c|}{SCD41  }
+ \\ \hline \hline
+   I2Cアドレス & 0x62 \\ \hline
   測定対象 & CO$_2$，温度，湿度 \\ \hline
   CO$_2$測定範囲 & 400$\sim$5000 ppm \\ \hline
   CO$_2$測定精度 & $\pm$(40 ppm + 5\%) \\ \hline
@@ -99,7 +101,7 @@ SCD41 は NDIR方式を採用した高精度なCO$_2$センサであり，小型
 本研究では，長時間駆動および携帯性の両立を目的として，バッテリ駆動による動作を前提とした設計を行った．
 
 \subsection{LTE通信モジュール SIM7080G}
-通信モジュールとして，SIMCom 社製 SIM7080G を使用した．
+通信モジュールとして，SIMCom 社製 SIM7080G （図\ref{fig:SIM7080G}）を使用した．
 SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信モジュールであり，M2M および IoT 用途に特化して設計されている．
 
 本モジュールは Qualcomm 製コアを搭載し，省電力クラス Class~5 に対応している．
@@ -118,7 +120,7 @@ SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信�
 \centering
 \caption{SIM7080Gの主なパラメータ}
 \label{tab:sim7080gParameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
   項目 & 内容 \\ \hline \hline
   対応通信方式 & LTE Cat.M1 / NB-IoT \\ \hline
@@ -142,7 +144,7 @@ SIM7080G は，LTE Cat.M1 および NB-IoT に対応した低消費電力通信�
 本節では，先行研究で用いられた主な機器について説明する．
 
 \subsection{Arduino MKR WiFi 1010}
-Arduino MKR WiFi 1010 は，SAMD21G18A マイクロコントローラを中心に，無線通信機能を担う NINA-W102 モジュールや，セキュア通信を実現する暗号チップ ATECC508 を搭載した小型開発ボードである．また，外部 SPI フラッシュメモリとして 2\,MB の記憶領域を備えており，プログラムやデータの保存が可能である．先行研究では，室内環境計測用デバイスの制御用マイクロコントローラとして使用されていた．
+Arduino MKR WiFi 1010 （図\ref{fig:Arduino}）は，SAMD21G18A マイクロコントローラを中心に，無線通信機能を担う NINA-W102 モジュールや，セキュア通信を実現する暗号チップ ATECC508 を搭載した小型開発ボードである．また，外部 SPI フラッシュメモリとして 2\,MB の記憶領域を備えており，プログラムやデータの保存が可能である．先行研究では，室内環境計測用デバイスの制御用マイクロコントローラとして使用されていた．本モジュールの主なパラメータを表\ref{tab:ArduinoParameters}に示す．
 
 \begin{figure}[H]
 \centering
@@ -155,9 +157,10 @@ Arduino MKR WiFi 1010 は，SAMD21G18A マイクロコントローラを中心�
 \centering
 \caption{Arduino MKR WiFi 1010 の主な仕様}
 \label{tab:ArduinoParameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
-  モデルNo. & Arduino MKR WiFi 1010 \\ \hline \hline
+   \multicolumn{1}{|c|}{ モデルNo. }&\multicolumn{1}{c|}{Arduino MKR WiFi 1010}
+ \\ \hline \hline
   CPU & ARM Cortex-M0+ \\ \hline
   最大動作周波数 & 48 MHz \\ \hline
   無線通信 & Wi-Fi（802.11 b/g/n），Bluetooth Low Energy \\ \hline
@@ -172,7 +175,7 @@ Arduino MKR WiFi 1010 は，SAMD21G18A マイクロコントローラを中心�
 \FloatBarrier
 
 \subsection{CO$_2$センサ MH-Z19C}
-MH-Z19C は，Winsen 社が製造する NDIR 方式の CO$_2$ センサモジュールである．比較的安価であり，室内環境測定用途として広く利用されている．先行研究では，本センサを用いて CO$_2$ 濃度の測定が行われていた．本モジュールの主なパラメータを表\ref{tab:mhz19cParameters}に示す．
+MH-Z19C （図\ref{fig:mh-z19c}）は，Winsen 社が製造する NDIR 方式の CO$_2$ センサモジュールである．比較的安価であり，室内環境測定用途として広く利用されている．先行研究では，本センサを用いて CO$_2$ 濃度の測定が行われていた．本モジュールの主なパラメータを表\ref{tab:mhz19cParameters}に示す．
 
 \begin{figure}[H]
 \centering
@@ -185,9 +188,10 @@ MH-Z19C は，Winsen 社が製造する NDIR 方式の CO$_2$ センサモジュ
 \centering
 \caption{MH-Z19Cの主なパラメータ}
 \label{tab:mhz19cParameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
-  項目 & 内容 \\ \hline \hline
+   \multicolumn{1}{|c|}{ 項目}&\multicolumn{1}{c|}{内容}
+ \\ \hline \hline
   測定方式 & NDIR \\ \hline
   CO$_2$測定範囲 & 0$\sim$5000 ppm \\ \hline
   測定精度 & $\pm$(50 ppm + 5\%) \\ \hline
@@ -202,7 +206,7 @@ MH-Z19C は，Winsen 社が製造する NDIR 方式の CO$_2$ センサモジュ
 
 
 \subsection{温度・湿度・気圧センサ BME680}
-BME680 は，Bosch Sensortec 社製の環境センサであり，温度，湿度，気圧に加えてガスセンサを内蔵している．内蔵されたガスセンサは主に揮発性有機化合物（VOC）に反応し，室内空気中の汚染度を間接的に評価することが可能である．先行研究では，これら複数の環境指標を組み合わせることで，室内環境を総合的に評価する目的で本センサが使用されていた．本モジュールの主なパラメータを表\ref{tab:bme680Parameters}に示す．
+BME680（図\ref{fig:BME680}） は，Bosch Sensortec 社製の環境センサであり，温度，湿度，気圧に加えてガスセンサを内蔵している．内蔵されたガスセンサは主に揮発性有機化合物（VOC）に反応し，室内空気中の汚染度を間接的に評価することが可能である．先行研究では，これら複数の環境指標を組み合わせることで，室内環境を総合的に評価する目的で本センサが使用されていた．本モジュールの主なパラメータを表\ref{tab:bme680Parameters}に示す．
 
 \begin{figure}[H]
 \centering
@@ -215,9 +219,10 @@ BME680 は，Bosch Sensortec 社製の環境センサであり，温度，湿度
 \centering
 \caption{BME680の主なパラメータ}
 \label{tab:bme680Parameters}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|l|}
   \hline
-  項目 & 内容 \\ \hline \hline
+   \multicolumn{1}{|c|}{ 項目 }&\multicolumn{1}{c|}{内容}
+ \\ \hline \hline
   測定対象 & 温度・湿度・気圧・VOC \\ \hline
   通信方式 & I$^2$C / SPI \\ \hline
   動作電圧 & 1.7$\sim$3.6 V \\ \hline

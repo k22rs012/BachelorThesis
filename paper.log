@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 10:38
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,7 +681,7 @@ File: ./figures/SeeedESP32C6.eps Graphic file (type eps)
 
 ]
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 54.
+(Font)              scaled to size 6.73553pt on input line 55.
 File: ./figures/scd41_new.eps Graphic file (type eps)
  <./figures/scd41_new.eps>
 
@@ -707,15 +707,15 @@ File: ./figures/bme.eps Graphic file (type eps)
 File: ./figures/LTE-prototype.eps Graphic file (type eps)
  <./figures/LTE-prototype.eps>
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 243.
+(Font)              scaled to size 9.6222pt on input line 248.
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 243.
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 248.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 243.
+(Font)              scaled to size 9.6222pt on input line 248.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 243.
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 248.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 243.
+(Font)              scaled to size 9.6222pt on input line 248.
 File: ./figures/LTE-ESP-front.eps Graphic file (type eps)
  <./figures/LTE-ESP-front.eps>
 File: ./figures/LTE-ESP-back.eps Graphic file (type eps)
@@ -823,21 +823,23 @@ File: ./figures/voltage-Arduino.eps Graphic file (type eps)
 
 [34]
 
-[35])
+[35]
 
-[36]
+[36])
+
+[37]
 第 7 章
 (./9conclusion.tex Excluding 'comment' comment.
 
-[37
+[38
 
 ]
 
-[38])
+[39])
 
-[39] (./10thanks.tex)
+[40] (./10thanks.tex)
 
-[40
+[41
 
 ] (./paper.bbl
 
@@ -845,7 +847,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[41
+[42
 
 
 ] (./paper.aux)
@@ -868,4 +870,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (46 pages, 176248 bytes).
+Output written on paper.dvi (47 pages, 179484 bytes).
