@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 11:35
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.20)  8 JAN 2026 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,6 +48,12 @@ Type  H <return>  for immediate help.
                                                   
 l.703 ...eclareSymbolFontAlphabet{\mathmc}{mincho}
                                                   
+? \
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 
 ! LaTeX Error: Encoding scheme `JY1' unknown.
@@ -457,9 +463,6 @@ LaTeX Warning: Label `sub@fig:LTE-ESP-back' multiply defined.
 LaTeX Warning: Label `fig:sample' multiply defined.
 
 
-LaTeX Warning: Label `fig:Device1' multiply defined.
-
-
 LaTeX Warning: Label `fig:Device0' multiply defined.
 
 
@@ -862,12 +865,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12861 strings out of 473836
- 261027 string characters out of 5731190
- 623648 words of memory out of 5000000
- 35947 multiletter control sequences out of 15000+600000
+ 12862 strings out of 473836
+ 261045 string characters out of 5731190
+ 623675 words of memory out of 5000000
+ 35948 multiletter control sequences out of 15000+600000
  579359 words of font info for 134 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  73i,9n,80p,191706b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on paper.dvi (47 pages, 179484 bytes).
+Output written on paper.dvi (47 pages, 179532 bytes).
