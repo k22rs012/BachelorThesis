@@ -71,17 +71,17 @@
 \end{center}
 
 
-%\thispagestyle{empty}
-%{\par \baselineskip=.8\normalbaselineskip
-%\begin{quotation}
-%\pagenumbering{roman}\setcounter{page}{0}
-%\tableofcontents
-%\listoffigures
-%\listoftables\vfill
-%\end{quotation} \par}
-%\vskip  \textwidth \pagebreak
-%\setcounter{page}{1}\pagenumbering{arabic}
-%\renewcommand{\bibname}{参考文献}
+\thispagestyle{empty}
+{\par \baselineskip=.8\normalbaselineskip
+\begin{quotation}
+\pagenumbering{roman}\setcounter{page}{0}
+\tableofcontents
+\listoffigures
+\listoftables\vfill
+\end{quotation} \par}
+\vskip  \textwidth \pagebreak
+\setcounter{page}{1}\pagenumbering{arabic}
+\renewcommand{\bibname}{参考文献}
 
 
 \clearpage
@@ -104,11 +104,6 @@
 \input{5hardwareDevelopment.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\chapter{測定値閲覧機能の開発}\label{chap:softwareDevelopment}
-%\input{6softwareDevelopment.tex}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{測定環境と測定方法}\label{chap:measurementMethod}
 \input{7measurementMethod.tex}
 
@@ -121,9 +116,9 @@
 \input{9conclusion.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\chapter*{謝辞}
-%\addcontentsline{toc}{chapter}{謝辞}
-%\input{10thanks.tex}\clearpage{}
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+\input{10thanks.tex}\clearpage{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addcontentsline{toc}{chapter}{参考文献}
 \bibliography{paper}
@@ -133,9 +128,7 @@
 %%% 付録 %%%
 \appendix\clearpage{}
 
-%\chapter{開発環境}\label{achap:Evaluation}
-%\addcontentsline{toc}{chapter}{開発環境}
-%\input{7IDE.tex}\clearpage{}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

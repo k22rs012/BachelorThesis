@@ -1,21 +1,29 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 日本の夏平均気温偏差}}{1}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces エアコン寿命}}{2}{}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces ノーメンテナンスによる消費電力の増加}}{3}{}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces 405iの測定（上）}}{4}{}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 405iの測定（下）}}{4}{}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 405iの測定結果（上）}}{4}{}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 405iの測定結果（下）}}{4}{}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces CO2センサ}}{5}{}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Testoアプリ（リアルタイム表示）}}{6}{}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Testoアプリ（表）}}{6}{}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Wi-Musuシステム構成}}{7}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Arduino-old}}{4}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 測定機器に搭載するモジュール}}{8}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SeeedStudioXIAOESP32C6}}{9}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Sparkfun FS3000-1015}}{10}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 切断済みセンサ（左）と非切断センサ（右）}}{10}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces BOSCH BME680}}{11}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces AVHzYct-3}}{13}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces AVHzYct-3のデータ取得画面}}{13}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Testo 405i}}{14}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Seeed XIAO ESP32-C6}}{7}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SCD41}}{8}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SIM7080G}}{9}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Arduino MKR WiFi 1010}}{10}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces MH-Z19C}}{11}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces BME680}}{12}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces LTEを使用した測定機器}}{13}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces プロトタイプおよび測定機器1の外観}}{19}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 測定機器1および測定機器2の外観}}{20}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LTEを使用した測定機器}}{21}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ドームハウスの環境}}{24}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 電車内の環境}}{25}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces プロトタイプおよび測定機器1の外観}}{26}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 電車内測定時の携帯型センサの位置}}{27}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces アルコール，呼気への反応結果}}{29}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces CO$_2$濃度の比較}}{30}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 据え置き型と携帯型のCO$_2$濃度比較}}{31}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 電車内のco2濃度変化}}{32}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces 電車内のco2濃度変化}}{33}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 測定機器4のバッテリ持続時間}}{34}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 測定機器3のバッテリ持続時間}}{35}{}%
+\addvspace {10\p@ }
